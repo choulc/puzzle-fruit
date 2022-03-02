@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/puzzle-fruit/static/css/main.369d7c21.css",
+    "main.js": "/puzzle-fruit/static/js/main.d96590df.js",
+    "static/js/787.961cc479.chunk.js": "/puzzle-fruit/static/js/787.961cc479.chunk.js",
+    "static/media/apple-title.png": "/puzzle-fruit/static/media/apple-title.b64c1d090a7a8903b914.png",
+    "static/media/13.svg": "/puzzle-fruit/static/media/13.62f7daaa91b18ff12f52.svg",
+    "static/media/21.svg": "/puzzle-fruit/static/media/21.e6617dead2461824bc1d.svg",
+    "static/media/10.svg": "/puzzle-fruit/static/media/10.e642188587e94b9b5575.svg",
+    "static/media/24.svg": "/puzzle-fruit/static/media/24.df62ee150b2795baf0b1.svg",
+    "static/media/11.svg": "/puzzle-fruit/static/media/11.b2de1b99af6e6492a6b9.svg",
+    "static/media/20.svg": "/puzzle-fruit/static/media/20.3e037d9296fc192c698e.svg",
+    "static/media/4.svg": "/puzzle-fruit/static/media/4.6aff5b8ff401afc8c057.svg",
+    "static/media/9.svg": "/puzzle-fruit/static/media/9.a5d0c80839b0e8448ed9.svg",
+    "static/media/5.svg": "/puzzle-fruit/static/media/5.02eda25c67a1d6ca49bd.svg",
+    "static/media/success.svg": "/puzzle-fruit/static/media/success.b338608c6bb3d1b84f553146649128fc.svg",
+    "static/media/gameOver.svg": "/puzzle-fruit/static/media/gameOver.e921fd073dc003a9b940b53798e6966b.svg",
+    "static/media/18.svg": "/puzzle-fruit/static/media/18.69f5a0678e0ea870d259.svg",
+    "static/media/16.svg": "/puzzle-fruit/static/media/16.c102ee2103679feb6090.svg",
+    "static/media/12.svg": "/puzzle-fruit/static/media/12.92ba9aeb2d388adab62a.svg",
+    "static/media/victory.svg": "/puzzle-fruit/static/media/victory.15d1934b121ee43a2b3133be80ba2d4c.svg",
+    "static/media/15.svg": "/puzzle-fruit/static/media/15.4e85e27bc686af1dea6b.svg",
+    "static/media/7.svg": "/puzzle-fruit/static/media/7.1b65b8452871c8948106.svg",
+    "static/media/19.svg": "/puzzle-fruit/static/media/19.3d205142f5f3ef41ba48.svg",
+    "static/media/2.svg": "/puzzle-fruit/static/media/2.a91755a3ec548279761d.svg",
+    "static/media/14.svg": "/puzzle-fruit/static/media/14.a1b93a26179483e1e36f.svg",
+    "static/media/22.svg": "/puzzle-fruit/static/media/22.9a8da808b709d42c1172.svg",
+    "static/media/6.svg": "/puzzle-fruit/static/media/6.1fe15603c78086b4e5e9.svg",
+    "static/media/8.svg": "/puzzle-fruit/static/media/8.a1cfe41df439b767277f.svg",
+    "static/media/1.svg": "/puzzle-fruit/static/media/1.5af98aa99ae3e392af0b.svg",
+    "static/media/17.svg": "/puzzle-fruit/static/media/17.6ded2ebad28f9d2bfd64.svg",
+    "static/media/3.svg": "/puzzle-fruit/static/media/3.27c4c0942c5c7557239d.svg",
+    "static/media/23.svg": "/puzzle-fruit/static/media/23.41bb3e07624d64b9bff0.svg",
+    "index.html": "/puzzle-fruit/index.html",
+    "main.369d7c21.css.map": "/puzzle-fruit/static/css/main.369d7c21.css.map",
+    "main.d96590df.js.map": "/puzzle-fruit/static/js/main.d96590df.js.map",
+    "787.961cc479.chunk.js.map": "/puzzle-fruit/static/js/787.961cc479.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.369d7c21.css",
+    "static/js/main.d96590df.js"
+  ]
+}
