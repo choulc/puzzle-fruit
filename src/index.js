@@ -20,7 +20,7 @@ TagManager.initialize(tagManagerArgs)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router>
+      <Router basename={"/puzzle-fruit"}>
         <Routes>
           <Route path="/" element={<App />}>
             <Route index element={<Home />} />
