@@ -160,12 +160,14 @@ const GameBoard = () => {
                                         <GameCell
                                             key={colIndex}
                                             className={firstSelected !== null && colIndex === firstSelected[0] && rowIndex === firstSelected[1] ? 'selected' : flagMatrix[rowIndex][colIndex] === 1 ? 'selected' : ''}
+                                            onTouchEnd={(e) => { gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex); e.preventDefault() }}
                                             onClick={() => { gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex) }}
                                         >
                                             {cell !== 0 && <img
                                                 src={require(`../assets/img/${cell}.svg`)}
                                                 alt={cell}
-                                                onClick={() => { handleImgSelected(rowIndex, colIndex) }}
+                                                onTouchEnd={(e) => { handleImgSelected(rowIndex, colIndex); e.preventDefault() }}
+                                                onClick={() => { gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex) }}
                                             />}
                                         </GameCell>
                                     ))}
