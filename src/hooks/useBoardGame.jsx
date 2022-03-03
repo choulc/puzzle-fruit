@@ -322,6 +322,7 @@ const useBoardGame = () => {
             dispatch(updateLevel(currentStageData.level))
             dispatch(updateTotalCol(currentStageData.colSet + 2))
             dispatch(updateTotalRow(currentStageData.rowSet + 2))
+            dispatch(updateJudgement(false))
             setPairsRemain(currentStageData.colSet * currentStageData.rowSet / 2)
 
             let temp = []
