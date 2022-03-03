@@ -477,7 +477,8 @@ img:hover{
     cursor: pointer;
 }
 
-& .selected{
+
+& .selected,& .selected:hover{
     background: #fff;
     z-index:200;
 }
