@@ -38,7 +38,7 @@ const GameBoard = () => {
 
     const [firstSelected, setFirstSelected] = useState(null)
 
-    const { matchCheck, resetFlagMatrix, gameReset, pairsRemain, maxLevel } = useMatchCheck()
+    const { matchCheck, resetFlagMatrix, gameReset, pairsRemain, maxLevel, judgement } = useMatchCheck()
     const { timeLeft, isTimeOut, pauseCountDown, startCountDown, setTimeLeft, resumeCountDown } = useCountDown({ initTime: 10 })
 
     const [open, setOpen] = useState(false);
@@ -160,14 +160,14 @@ const GameBoard = () => {
                                         <GameCell
                                             key={colIndex}
                                             className={firstSelected !== null && colIndex === firstSelected[0] && rowIndex === firstSelected[1] ? 'selected' : flagMatrix[rowIndex][colIndex] === 1 ? 'selected' : ''}
-                                            onTouchEnd={(e) => { gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex); e.preventDefault() }}
-                                            onClick={() => { gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex) }}
+                                            onTouchEnd={(e) => { !judgement && gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex); e.preventDefault() }}
+                                            onClick={() => { !judgement && gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex) }}
                                         >
                                             {cell !== 0 && <img
                                                 src={require(`../assets/img/${cell}.svg`)}
                                                 alt={cell}
-                                                onTouchEnd={(e) => { handleImgSelected(rowIndex, colIndex); e.preventDefault() }}
-                                                onClick={() => { gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex) }}
+                                                onTouchEnd={(e) => { !judgement && handleImgSelected(rowIndex, colIndex); e.preventDefault() }}
+                                                onClick={() => { !judgement && gameMatrix[rowIndex][colIndex] !== 0 && handleImgSelected(rowIndex, colIndex) }}
                                             />}
                                         </GameCell>
                                     ))}

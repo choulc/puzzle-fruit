@@ -103,7 +103,7 @@ const useBoardGame = () => {
                 clearBoard()
                 dispatch(updateJudgement(false))
                 setPairsRemain(pairsRemain - 1)
-            }, 300);
+            }, 250);
         }
 
     }, [judgement, dispatch, flagMatrix, gameMatrix, totalCol, totalRow, pairsRemain])
@@ -341,7 +341,7 @@ const useBoardGame = () => {
         }
     }
 
-    return { matchCheck, resetFlagMatrix, gameReset, pairsRemain, maxLevel }
+    return { matchCheck, resetFlagMatrix, gameReset, pairsRemain, maxLevel, judgement }
 
 }
 
