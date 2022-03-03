@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puzzle-fruit/static/css/main.369d7c21.css",
-    "main.js": "/puzzle-fruit/static/js/main.c5e4a6df.js",
+    "main.js": "/puzzle-fruit/static/js/main.d24fb26a.js",
     "static/js/787.961cc479.chunk.js": "/puzzle-fruit/static/js/787.961cc479.chunk.js",
     "static/media/apple-title.png": "/puzzle-fruit/static/media/apple-title.b64c1d090a7a8903b914.png",
     "static/media/13.svg": "/puzzle-fruit/static/media/13.62f7daaa91b18ff12f52.svg",
@@ -33,11 +33,11 @@
     "static/media/23.svg": "/puzzle-fruit/static/media/23.41bb3e07624d64b9bff0.svg",
     "index.html": "/puzzle-fruit/index.html",
     "main.369d7c21.css.map": "/puzzle-fruit/static/css/main.369d7c21.css.map",
-    "main.c5e4a6df.js.map": "/puzzle-fruit/static/js/main.c5e4a6df.js.map",
+    "main.d24fb26a.js.map": "/puzzle-fruit/static/js/main.d24fb26a.js.map",
     "787.961cc479.chunk.js.map": "/puzzle-fruit/static/js/787.961cc479.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.369d7c21.css",
-    "static/js/main.c5e4a6df.js"
+    "static/js/main.d24fb26a.js"
   ]
 }
