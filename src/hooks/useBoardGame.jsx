@@ -1,7 +1,7 @@
 // import { useMemo } from 'react';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { updateFlagMatrix, updateGameMatrix, updateJudgement, updateTotalCol, updateTotalRow } from '../reducers/gameSlice';
+import { updateFlagMatrix, updateGameMatrix, updateJudgement, updateLevel, updateTotalCol, updateTotalRow } from '../reducers/gameSlice';
 import { stageData } from "../config"
 
 const useBoardGame = () => {
@@ -319,6 +319,7 @@ const useBoardGame = () => {
 
         if (!!currentStageData) {
 
+            dispatch(updateLevel(currentStageData.level))
             dispatch(updateTotalCol(currentStageData.colSet + 2))
             dispatch(updateTotalRow(currentStageData.rowSet + 2))
             setPairsRemain(currentStageData.colSet * currentStageData.rowSet / 2)
